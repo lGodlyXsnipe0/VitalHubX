@@ -4134,7 +4134,7 @@ do
 			writefile(tostring(LocalPlayer.UserId).."ALC.txt", tostring(v))
 		end)
 		Settings_M:AddButton({
-			Title = "Join Normal Hub Discord",
+			Title = "Join Vital Hub X Discord",
 			Description = "Click to join",
 			Callback = function()
 
