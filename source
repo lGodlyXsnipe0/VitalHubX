@@ -8,7 +8,7 @@ local Window = Fluent:CreateWindow({
 	TabWidth = 160,
 	Size = UDim2.fromOffset(550, 350),
 	Acrylic = false, 
-	Theme = "Amethyst",
+	Theme = "Dark",
 	MinimizeKey = Enum.KeyCode.LeftControl
 })
 
@@ -56,7 +56,7 @@ end
 
 function Notify(Des, Time, title)
 	Fluent:Notify({
-		Title= title or "Normal Hub Notify",
+		Title= title or "Vital Hub X Notify",
 		Content = Des,
 		Duration = Time or 3
 	})
@@ -3397,8 +3397,8 @@ AllFuncs['Sending Webhook'] = function()
 							["url"]= GetPlayerProfile()
 						},
 						["footer"]= {
-							["text"]  = "Normal Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+							["text"]  = "Vital Hub X Notify",
+							["icon_url"] = "https://cdn.discordapp.com/attachments/1324168300606783599/1324173552223649844/v-letter-logo-icon-for-business-and-company-vector.jpg?ex=67773038&is=6775deb8&hm=bc173a91748fcdf103084f47694cd309615a93e55535508d20e9483fd9afb08c&"
 						}
 					}
 				}
@@ -3434,8 +3434,8 @@ workspace.active.ChildAdded:Connect(function(child)
 							["url"]= GetPlayerProfile()
 						},
 						["footer"]= {
-							["text"]  = "Normal Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+							["text"]  = "Vital Hub X Notify",
+							["icon_url"] = "https://cdn.discordapp.com/attachments/1324168300606783599/1324173552223649844/v-letter-logo-icon-for-business-and-company-vector.jpg?ex=67773038&is=6775deb8&hm=bc173a91748fcdf103084f47694cd309615a93e55535508d20e9483fd9afb08c&"
 						}
 					}
 				}
@@ -3581,8 +3581,8 @@ AllFuncs['Auto Find Boat Event'] = function()
 								["url"]= GetPlayerProfile()
 							},
 							["footer"]= {
-								["text"]  = "Normal Hub Notify",
-								["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+								["text"]  = "Vital Hub X Notify",
+								["icon_url"] = "https://cdn.discordapp.com/attachments/1324168300606783599/1324173552223649844/v-letter-logo-icon-for-business-and-company-vector.jpg?ex=67773038&is=6775deb8&hm=bc173a91748fcdf103084f47694cd309615a93e55535508d20e9483fd9afb08c&"
 							}
 						}
 					}
@@ -3906,8 +3906,8 @@ WebHookConfigs = Tap.Configs:AddSection('WebHook') do
 							["url"]= GetPlayerProfile()
 						},
 						["footer"]= {
-							["text"]  = "Normal Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
+							["text"]  = "Vital Hub X Notify",
+							["icon_url"] = "https://cdn.discordapp.com/attachments/1324168300606783599/1324173552223649844/v-letter-logo-icon-for-business-and-company-vector.jpg?ex=67773038&is=6775deb8&hm=bc173a91748fcdf103084f47694cd309615a93e55535508d20e9483fd9afb08c&"
 						}
 					}
 				}
